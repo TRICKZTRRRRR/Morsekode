@@ -10,6 +10,7 @@ namespace Morsekode
     {
         static void Main(string[] args)
         {
+            Console.Title = "Morsekode";
         }
     }
 }

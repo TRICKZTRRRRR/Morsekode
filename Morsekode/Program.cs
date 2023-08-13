@@ -33,6 +33,7 @@ namespace Morsekode
                 // Use a switch statement to map characters to Morse code
                 switch (c)
                 {
+                    // Letters
                     case 'A':
                         morseCode += ".- ";
                         break;
@@ -96,6 +97,106 @@ namespace Morsekode
                     case 'U':
                         morseCode += "· · — ";
                         break;
+                    case 'V':
+                        morseCode += "· · · — ";
+                        break;
+                    case 'W':
+                        morseCode += "· — — ";
+                        break;
+                    case 'X':
+                        morseCode += "— · · — ";
+                        break;
+                    case 'Y':
+                        morseCode += "— · — — ";
+                        break;
+                    case 'Z':
+                        morseCode += "— — · · ";
+                        break;
+                    case 'Æ':
+                        morseCode += "· — · — ";
+                        break;
+                    case 'Ø':
+                        morseCode += "— — — · ";
+                        break;
+                    case 'Å':
+                        morseCode += "· — — · — ";
+                        break;
+
+                    // Numbers
+                    case '1':
+                        morseCode += "· — — — — ";
+                        break;
+                    case '2':
+                        morseCode += "· · — — — ";
+                        break;
+                    case '3':
+                        morseCode += "· · · — — ";
+                        break;
+                    case '4':
+                        morseCode += "· · · · —";
+                        break;
+                    case '5':
+                        morseCode += "· · · · · ";
+                        break;
+                    case '6':
+                        morseCode += "— · · · ·";
+                        break;
+                    case '7':
+                        morseCode += "— — · · · ";
+                        break;
+                    case '8':
+                        morseCode += "— — — · · ";
+                        break;
+                    case '9':
+                        morseCode += " — — — · ";
+                        break;
+                    case '0':
+                        morseCode += "— — — — — ";
+                        break;
+
+                    // Other
+                    case '.':
+                        morseCode += "· — · — · — ";
+                        break;
+                    case ',':
+                        morseCode += "— — · · — — ";
+                        break;
+                    case ':':
+                        morseCode += "— — — · · · ";
+                        break;
+                    case '?':
+                        morseCode += "· · — — · · ";
+                        break;
+                    case '-':
+                        morseCode += "— · · · · — ";
+                        break;
+                    case '/':
+                        morseCode += "— · · — ·  ";
+                        break;
+                    case '(':
+                        morseCode += "— · — — · ";
+                        break;
+                    case ')':
+                        morseCode += "— · — — · — ";
+                        break;
+                    case '"':
+                        morseCode += "· — · · — · ";
+                        break;
+                    case '\n':
+                        morseCode += "· — · — ";
+                        break;
+                    case '×':
+                        morseCode += "— · · — ";
+                        break;
+                    case '@':
+                        morseCode += "· — — · — · ";
+                        break;
+                    case '\'':
+                        morseCode += "· — — — — ·  ";
+                        break;
+
+
+
                     case ' ':
                         morseCode += "   "; // Space between words
                         break;
